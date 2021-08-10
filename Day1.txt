@@ -1,0 +1,23 @@
+git Commands
+
+	git config- The command set the author name and email address respectively to be used with commits 
+
+		git config -global user.name "name"
+                git congif -global user.email "email@.com"
+
+	git init- command is used to start new repository
+		
+	git add- command adds a file to the staging area
+
+	git add .- stage all files in the entire repository
+
+	git commit- 
+		git  commit -m -> commit your staged content as a new commit snapshot
+	git reset-> unstaged a file while retaining the changes in working directory
+	git clone-> Used to download the source code from the remote repository
+	git status-> show modified files in working directory, staged for next commit
+	git rm-> delete the file from project and stage the removal for commit  
+	git remote add-> add git URL as an alias
+	git merge-> merge a remote branch into your current branch to bring it up to date
+	git push-> Transmit local branch commits to the remote repositoy branch
+	git pull-> fetch and merge any commits from the tracking remote branch
